@@ -28,8 +28,16 @@
             ({{ category | last | size }})</a>
         </li>
       </ul>
-      {% endfor %}
     </nav>
+
+    <div class="tag-wrapper">
+      {% endfor %}
+        {% for tag in site.data.tags %}
+        <span class="tag" data-tag="{{tag}}">
+          #{{ site.data.format[tag] }}
+        </span>
+      {% endfor %}
+    </div>
   </div>
 
 </header>

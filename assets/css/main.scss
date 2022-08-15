@@ -713,3 +713,29 @@ img {
         color: var(--footer_font_a);
     }
 }
+
+
+.hidden {
+    display: none;
+}
+
+.selected {
+    background: var(--nav_font);
+    color: #fff;
+    border-radius: 8px;
+}
+
+.tag-wrapper {
+    margin: 10px;
+}
+
+.tag {
+    padding: 1px 6px;
+    display: inline-block;
+    font-size: 85%;
+}
+
+.post_data .tag {
+    color: var(--nav_font);
+    font-size: 90%;
+}

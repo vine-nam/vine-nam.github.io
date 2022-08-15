@@ -2,6 +2,7 @@
 title: 1. 지킬(Jekyll) 블로그 만들기
 categories: [blog]
 comments: true
+tags: [blog, jekyll]
 ---
 
 ### 1. 루비 개발 환경 설치하기

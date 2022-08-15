@@ -2,6 +2,7 @@
 title: 3. github blog 만들고 지킬(Jekyll) 올리기
 categories: [blog]
 comments: true
+tags: [blog, jekyll, github]
 ---
 
 ### 1.  gitHub에서 새 레파지토리를 생성해줍니다.

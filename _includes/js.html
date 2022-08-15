@@ -1,6 +1,62 @@
 <!-- js from https://codepen.io/MrGrigri/pen/XQmWBv -->
 
 <script>
+document.querySelectorAll("[data-tag]").forEach(item => {
+  item.addEventListener("click", (e) => {
+    currentTag = e.target.dataset.tag;
+    if(location.pathname !== "/" && location.pathname.substr(1, 10) !== 'categories' ) {
+      window.location.href=`${location.protocol}//${location.host}/?tag=${currentTag}`;
+    }
+    filterByTagName(currentTag);
+  })
+})
+
+function filterByTagName(tagName) {
+  let data = document.querySelector(`.tag-wrapper .tag[data-tag=${tagName}]`);
+  for (let index = 0; index < data.classList.length; index++) {
+    if(data.classList[index] === 'selected') {
+      document.querySelectorAll('.archive li').forEach(elem => {
+        elem.classList.remove("hidden");
+      });
+      data.classList.remove('selected');
+      updateQueryString("");
+      return;
+    }
+  }
+
+  document.querySelectorAll('.hidden').forEach(item => {
+    item.classList.remove('hidden');
+  });
+  document.querySelectorAll('.archive li').forEach((elem, index) => {
+    if (!elem.hasAttribute(`data-${tagName}`)) {
+        elem.classList.add("hidden");
+    }
+  });
+  document.querySelectorAll('.tag-wrapper .tag').forEach(item => {
+    item.classList.remove('selected');
+  });
+  document.querySelector(`.tag-wrapper .tag[data-tag=${tagName}]`).classList.add('selected');
+  
+  updateQueryString(tagName);
+}
+
+function getQuery() {     
+    var params = {};  
+    
+    window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
+    	function(str, key, value) { 
+        	params[key] = value; 
+        }
+    );     
+    
+    return params; 
+}
+
+function updateQueryString(tagName) {
+  const path = `${location.protocol}//${location.host}${location.pathname}?tag=${tagName}`;
+  window.history.replaceState({ path }, '', path);
+}
+
 // @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
     const themePreference = () => {
         const hasLocalStorage = localStorage.getItem('theme');
@@ -66,6 +122,13 @@
                 localStorage.setItem('theme', 'light');
             }
         }, false);
+
+        let currentTag = "";
+        const queryTag = getQuery().tag;
+        if (queryTag) {
+          currentTag = queryTag;
+          filterByTagName(currentTag);
+        }
     }, false);
 // @license-end
 </script>

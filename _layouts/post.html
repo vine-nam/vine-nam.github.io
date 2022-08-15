@@ -19,6 +19,19 @@ layout: page
       {% endif %}{% endfor %}
     </span>
     {% endif %}
+
+    <div>
+      {% if page.tags %}
+        {% for tag in page.tags %}
+          {% if site.data.tags contains tag %}
+            <a href="/?tag={{ tag }}">
+              <span class="tag">#{{ site.data.format[tag] }}</span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+
   </div>
   <div class="post_content">
     {{ content }}

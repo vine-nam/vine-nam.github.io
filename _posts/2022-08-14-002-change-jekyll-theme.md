@@ -2,6 +2,7 @@
 title: 2. 지킬(Jekyll) 테마 변경하기
 categories: [blog]
 comments: true
+tags: [blog, jekyll]
 ---
 
 여러 사이트에서 지킬 테마를 다운 받을 수 있습니다.
