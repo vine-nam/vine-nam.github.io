@@ -43,3 +43,7 @@ ex) D:\\_JIA\\WorkSpaces\\myblog
 
 	![](../images/blog/Pasted%20image%2020220814171149.png)
 
+
+<br/>
+
+**다음글 보러가기** ➞ [4. jekyll blog 글 작성을 위한 obsidian 셋팅하기](../2022-08/004-setting-up-obsidian-for-jekyll-blog.html)
