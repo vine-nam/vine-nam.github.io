@@ -1,0 +1,20 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "images",
+  "livePreview": true,
+  "strictLineBreaks": true,
+  "readableLineLength": false,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "ko",
+    "en-US"
+  ],
+  "legacyEditor": false,
+  "rightToLeft": false,
+  "showLineNumber": true,
+  "showFrontmatter": false,
+  "promptDelete": false
+}

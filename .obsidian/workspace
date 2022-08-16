@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "44b4768fdcbc97e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "724cba392879db5d",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "images/blog/Pasted image 20220816211825.png"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5ec1d1439a5b47c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "dbbfb24da3f6f265",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99367f6bc0cc2a54",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "02681ade0cd94848",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bb9ec9be98348400",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259
+  },
+  "right": {
+    "id": "f8e01dafa25e1d3b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae67a34b727780be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "373b09d85c039b50",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "images/blog/Pasted image 20220816211825.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "62b66e4296cab90c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "images/blog/Pasted image 20220816211825.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "94f04ac043238424",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "19a563a8ad87223e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "images/blog/Pasted image 20220816211825.png"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249
+  },
+  "active": "99367f6bc0cc2a54",
+  "lastOpenFiles": [
+    "_posts/2022-08-16-004-setting-up-obsidian-for-jekyll-blog.md",
+    "_posts/2022-08-14-003-create-github-blog-and-upload-jekyll.md",
+    "_posts/2022-08-14-002-change-jekyll-theme.md",
+    "_posts/2022-08-16.md",
+    "_posts/2022-08-14-001-create-jekyll-blog.md",
+    "images/blog/Pasted image 20220816211825.png",
+    "images/blog/Pasted image 20220816212243.png",
+    "images/Pasted image 20220816212559.png",
+    "templates/post.md",
+    "_posts/Pasted image 20220816202859.png"
+  ]
+}
