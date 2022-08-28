@@ -11,7 +11,7 @@ tags: [blog, jekyll, github]
 
 ![](../images/blog/Pasted%20image%2020220814155359.png)
 
-### 2. [이전에 만든 지킬 블로그](../2022-08/001-create-jekyll-blog)를 github 레파지토리와 연동합니다.
+### 2. [이전에 만든 지킬 블로그](../2022-08/001-create-jekyll-blog.html)를 github 레파지토리와 연동합니다.
 
 다음 명령어들은 지킬 블로그 파일이 있는 경로에서 실행해 줍니다.
 ex) D:\\_JIA\\WorkSpaces\\myblog
