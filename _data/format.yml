@@ -7,3 +7,4 @@ vscode: VSCode
 shell: Shell
 osgi: OSGI
 bwce: BWCE
+kubernetes: Kubernetes
