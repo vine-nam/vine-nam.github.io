@@ -8,3 +8,6 @@ shell: Shell
 osgi: OSGI
 bwce: BWCE
 kubernetes: Kubernetes
+docker: Docker
+nodejs: NodeJS
+mssql: MSSQL
